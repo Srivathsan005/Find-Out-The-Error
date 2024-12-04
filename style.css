@@ -1,0 +1,85 @@
+.box {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 20%;
+    padding: 10;
+    justify-items: center;
+    text-align: center;
+    
+}
+
+.box h2 a {
+    margin-left: 5px;
+    text-decoration: underline;
+    justify-content: center;
+}
+
+.box h2 a:hover {
+    color: red;
+}
+
+table {
+    border: 5% solid black;
+    border-radius: 5px;
+    padding: 10% 20px;
+    width: 90%;
+    height: 10vh;
+    margin-left: 350px;
+
+}
+
+table td {
+    height: 30px;
+    vertical-align: bottom;
+    align-items: center;
+    justify-content: center;
+}
+
+.n1 {
+    background-color: rgb(32, 135, 133);
+}
+
+.n2 {
+    background-color: thistle;
+}
+
+.n3 {
+    background-color: teal;
+}
+
+.n4 {
+    background-color: blue;
+}
+
+.n5 {
+    background-color: green;
+}
+
+.n6 {
+    background-color: burlywood;
+}
+
+.n7 {
+    background-color: orange;
+}
+
+.n8 {
+    background-color: blueviolet;
+}
+
+.n9 {
+    background-color: palevioletred;
+}
+
+.box td {
+    flex-direction: column;
+    border: 3px solid black;
+    position: relative;
+    right: 50%;
+    bottom: 30px;
+
+}
+body{
+    background: linear-gradient(90deg,#858383 0%, rgba(218, 4, 247, 0.93) 80%);
+    color: white;
+}
